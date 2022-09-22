@@ -355,15 +355,15 @@
 <p>下面我们就介绍下如何使用pyinstaller打包Python文件？</p>
 <ol>
 <li><p>安装pyinstaller第三方库</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">pip install pyinstaller<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">pip install pyinstaller<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li><p>执行打包命令</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">pyinstaller yourprogram<span class="token punctuation">.</span>py<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<pre class="line-numbers language-none"><code class="language-none">pyinstaller yourprogram.py<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 </ol>
 <p>什么，就这么简单？<br>是的，你没看错，只需两步，你需要的exe文件就生成了，放在与你的yourprogram.py文件同目录下的dist文件夹里，就可以快乐的发给别人去臭显摆了，哈哈哈。</p>
 <p>当然了，如果你还需要一些定制化的东西，比如我要打包一个GUI程序，而默认的图标太丑了，我要换一个更好看的图标等等， 我们只需要增加一些参数就能完成，下面我们就以打包GUI程序为例，简单介绍下几个用到的参数</p>
 <p>先看我最终打包使用的命令</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">pyinstaller <span class="token operator">-</span>F <span class="token operator">-</span>w <span class="token operator">-</span>i <span class="token number">16</span><span class="token punctuation">.</span>ico <span class="token operator">-</span>n active get_register_code<span class="token punctuation">.</span>py<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">pyinstaller -F -w -i 16.ico -n active get_register_code.py<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>我们来介绍下用到的参数</p>
 <table>
