@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Friday</title>
+  
+  <subtitle>路虽远，行则将至</subtitle>
+  <link href="https://www.0a0z.cn/atom.xml" rel="self"/>
+  
+  <link href="https://www.0a0z.cn/"/>
+  <updated>2022-09-22T15:43:43.697Z</updated>
+  <id>https://www.0a0z.cn/</id>
+  
+  <author>
+    <name>Friday</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何把python文件打包为可执行程序exe？</title>
+    <link href="https://www.0a0z.cn/2022/09/22/%E5%A6%82%E4%BD%95%E6%8A%8Apython%E6%96%87%E4%BB%B6%E6%89%93%E5%8C%85%E4%B8%BA%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8Fexe%EF%BC%9F/"/>
+    <id>https://www.0a0z.cn/2022/09/22/%E5%A6%82%E4%BD%95%E6%8A%8Apython%E6%96%87%E4%BB%B6%E6%89%93%E5%8C%85%E4%B8%BA%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8Fexe%EF%BC%9F/</id>
+    <published>2022-09-22T14:50:10.000Z</published>
+    <updated>2022-09-22T15:43:43.697Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;如果你用Python写了个很优秀的小工具，然后别人也很喜欢用，你是不是感觉很有成就感？总希望能让更多的人使用它？&lt;/p&gt;
+&lt;p&gt;但是对于不懂Python的人，如果直接发python文件，想要运行起来还是比较难的，如果能把python文件打包为可执行文件exe，在window</summary>
+        
+      
+    
+    
+    
+    <category term="Python应用" scheme="https://www.0a0z.cn/categories/Python%E5%BA%94%E7%94%A8/"/>
+    
+    
+    <category term="Python" scheme="https://www.0a0z.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.0a0z.cn/2022/09/21/hello-world/"/>
+    <id>https://www.0a0z.cn/2022/09/21/hello-world/</id>
+    <published>2022-09-21T15:54:16.895Z</published>
+    <updated>2022-09-20T15:49:51.786Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Blog" scheme="https://www.0a0z.cn/categories/Blog/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.0a0z.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo&amp;github搭建个人博客</title>
+    <link href="https://www.0a0z.cn/2022/09/20/Hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://www.0a0z.cn/2022/09/20/Hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-09-20T15:40:55.000Z</published>
+    <updated>2022-09-20T15:47:26.580Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本篇文章主要介绍用github结合Hexo搭建个人博客.&lt;/p&gt;
+&lt;h1 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h1&gt;&lt;h3 id=&quot;安装Node-js&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog" scheme="https://www.0a0z.cn/categories/Blog/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.0a0z.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
