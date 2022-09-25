@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo&amp;github搭建个人博客, 学习">
+    <meta name="keywords" content="Hexo+github搭建免费个人博客, 学习,运动,旅游,理财,Python">
     <meta name="description" content="不折腾，不成魔，没有自己的博客不算一个合格搬砖人，钱能买来的都不值得珍惜，哈哈，本篇文章主要介绍用github结合Hexo搭建个人免费博客,来实现自己的博客梦。
 准备工作
 安装Node.js
@@ -20,7 +20,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo&amp;github搭建个人博客 | Friday</title>
+    <title>Hexo+github搭建免费个人博客 | Friday</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -164,7 +164,7 @@
         <div class="logo-name">Friday</div>
         <div class="logo-desc">
             
-            终生学习者,读书发烧友,Python爱好者,游泳健将
+            记录生活,分享学习心得,感悟生活,留住美好瞬间,Python爱好者,路虽远,行则将至！
             
         </div>
     </div>
@@ -253,12 +253,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo&amp;github搭建个人博客</h1>
+                    <h1 class="description center-align post-title">Hexo+github搭建免费个人博客</h1>
                 </div>
             </div>
         </div>
@@ -296,6 +296,10 @@
                         
                             <a href="/categories/Blog/" class="post-category">
                                 Blog
+                            </a>
+                        
+                            <a href="/categories/Blog/Github/" class="post-category">
+                                Github
                             </a>
                         
                     </div>
@@ -384,9 +388,11 @@
 <h3 id="部署到Github"><a href="#部署到Github" class="headerlink" title="部署到Github"></a>部署到Github</h3><p>Github提供了一个Github Page的功能，来实现静态网页的显示，我们就是借用此功能来部署我们自己的博客.</p>
 <h4 id="Github环境配置"><a href="#Github环境配置" class="headerlink" title="Github环境配置"></a>Github环境配置</h4><ol>
 <li><p>在Github上新建一个仓库，如下：</p>
-<p><img src="/posts/8681/new.jpg" alt="新建仓库"></p>
+<p><img src="http://img.0a0z.cn/new.jpg" alt="new"></p>
 </li>
-<li><p>然后在如下界面输入必要信息，注意看图中标注，尤其是仓库名字那个，<strong>必须是你自己github的用户名在加上.github.io后缀</strong>。例如我的，就是<strong>KenZP.github.io</strong>, 勾选创建readme，最后点Create就OK了。<br><img src="/posts/8681/githubio.png" alt="填写仓库名"></p>
+<li><p>然后在如下界面输入必要信息，注意看图中标注，尤其是仓库名字那个，<strong>必须是你自己github的用户名在加上.github.io后缀</strong>。例如我的，就是<strong>KenZP.github.io</strong>, 勾选创建readme，最后点Create就OK了。</p>
+</li>
+<li><p><img src="http://img.0a0z.cn/githubio.png" alt="githubio"></p>
 </li>
 <li><p>仓库建好了，现在就需要把本地的博客部署到Github了，需要先做一些Github配置.<br>在git bash里面输入如下命令：</p>
 <pre class="line-numbers language-none"><code class="language-none">git config --global user.name &quot;你的github用户名&quot;
@@ -396,7 +402,8 @@ git config --global user.email &quot;你注册github的邮箱&quot;<span aria-hi
 <pre class="line-numbers language-none"><code class="language-none">ssh-keygen -t rsa -C &quot;你注册github的邮箱&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>在C盘用户名下有个.ssh文件夹，比如我的路径：<code>C:\Users\zhken\.ssh</code>,把里面的id_rsa.pub打开，复制里面的字串。</p>
-<p>在你github头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便起一个,然后把上一步复制的字串写到Key那个框中,然后点Add SSH Key。<br><img src="/posts/8681/setting.png" alt="设置"><br><img src="/posts/8681/ssh.png" alt="ssh"><br><img src="/posts/8681/sshkey.png" alt="sshkey"></p>
+<p>在你github头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便起一个,然后把上一步复制的字串写到Key那个框中,然后点Add SSH Key。</p>
+<p><img src="http://img.0a0z.cn/setting.png" alt="setting"><br><img src="http://img.0a0z.cn/ssh.png" alt="ssh"><br><img src="http://img.0a0z.cn/sshkey.png" alt="sshkey"></p>
 <p>此刻，你本地就可以和Github仓库做交流了，下面就是把本地的博客部署到github。</p>
 </li>
 </ol>
@@ -626,9 +633,9 @@ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Hexo&amp;github搭建个人博客">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Hexo+github搭建免费个人博客">
                         
-                        <span class="card-title">Hexo&amp;github搭建个人博客</span>
+                        <span class="card-title">Hexo+github搭建免费个人博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -647,6 +654,10 @@ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
                             
                             <a href="/categories/Blog/" class="post-category">
                                     Blog
+                                </a>
+                            
+                            <a href="/categories/Blog/Github/" class="post-category">
+                                    Github
                                 </a>
                             
                             
