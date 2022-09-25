@@ -40,14 +40,14 @@
           
           <category> Blog </category>
           
-          <category> Github </category>
-          
       </categories>
       
       
         <tags>
             
             <tag> Hexo </tag>
+            
+            <tag> Github </tag>
             
         </tags>
       
