@@ -266,7 +266,22 @@
 
             <div class="description center-align">
                 
-                    记录生活,分享学习心得,感悟生活,留住美好瞬间,Python爱好者,路虽远,行则将至！
+                <span id="subtitle"></span>
+                <script src="/libs/typed/typed.js"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: [ 
+                            
+                                "凡事都有偶然的凑巧，结果却又如宿命的必然！",
+                            
+                        ],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
                 
             </div>
         </div>
@@ -523,7 +538,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Blog","value":1},{"name":"Python应用","value":1}],
+                data: [{"name":"Python应用","value":1},{"name":"Blog","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -547,7 +562,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Hexo","Github","Python"]
+                data: ["Python","Hexo","Github"]
             }
         ],
         yAxis: [

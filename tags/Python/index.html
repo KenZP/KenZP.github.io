@@ -259,7 +259,22 @@
 
             <div class="description center-align">
                 
-                    记录生活,分享学习心得,感悟生活,留住美好瞬间,Python爱好者,路虽远,行则将至！
+                <span id="subtitle"></span>
+                <script src="/libs/typed/typed.js"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: [ 
+                            
+                                "凡事都有偶然的凑巧，结果却又如宿命的必然！",
+                            
+                        ],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
                 
             </div>
         </div>
@@ -290,10 +305,19 @@
             <div class="tag-chips">
                 
                 
+                <a href="/tags/Python/" title="Python: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="Python" style="background-color: #F9EBEA;">Python
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/Hexo/" title="Hexo: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Hexo" style="background-color: #F9EBEA;">Hexo
+                            data-tagname="Hexo" style="background-color: #F5EEF8;">Hexo
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -302,16 +326,7 @@
                 <a href="/tags/Github/" title="Github: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Github" style="background-color: #F5EEF8;">Github
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Python/" title="Python: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="Python" style="background-color: #D5F5E3;">Python
+                            data-tagname="Github" style="background-color: #D5F5E3;">Github
                         <span class="tag-length">1</span>
                     </span>
                 </a>
