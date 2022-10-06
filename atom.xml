@@ -6,7 +6,7 @@
   <link href="https://www.0a0z.cn/atom.xml" rel="self"/>
   
   <link href="https://www.0a0z.cn/"/>
-  <updated>2022-09-24T10:01:13.786Z</updated>
+  <updated>2022-10-06T13:44:01.820Z</updated>
   <id>https://www.0a0z.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>向黎明敬礼</title>
+    <link href="https://www.0a0z.cn/posts/undefined.html"/>
+    <id>https://www.0a0z.cn/posts/undefined.html</id>
+    <published>2022-10-06T13:30:12.000Z</published>
+    <updated>2022-10-06T13:44:01.820Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;《向黎明致敬》&quot;&gt;&lt;a href=&quot;#《向黎明致敬》&quot; class=&quot;headerlink&quot; title=&quot; 《向黎明致敬》&quot;&gt;&lt;/a&gt;&lt;center&gt; 《向黎明致敬》&lt;/h1&gt;&lt;h5 id=&quot;—里达沙-印度&quot;&gt;&lt;a href=&quot;#—里达沙-印度&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="诗歌" scheme="https://www.0a0z.cn/categories/%E8%AF%97%E6%AD%8C/"/>
+    
+    
+    <category term="小诗" scheme="https://www.0a0z.cn/tags/%E5%B0%8F%E8%AF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>如何把python文件打包为可执行程序exe？</title>
