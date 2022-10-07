@@ -385,13 +385,9 @@
 <h3 id="部署到Github"><a href="#部署到Github" class="headerlink" title="部署到Github"></a>部署到Github</h3><p>Github提供了一个Github Page的功能，来实现静态网页的显示，我们就是借用此功能来部署我们自己的博客.</p>
 <h4 id="Github环境配置"><a href="#Github环境配置" class="headerlink" title="Github环境配置"></a>Github环境配置</h4><ol>
 <li><p>在Github上新建一个仓库，如下：</p>
-<!-- ![新建仓库](new.jpg) -->
-<!-- ![新建仓库](https://www.helloimg.com/images/2022/10/07/ZUI6b0.jpg) -->
-<p><img src="https://static01.imgkr.com/temp/868124c1ab554c84b574bbb1e9baa0af.jpg" alt="新建仓库"></p>
+<p><img src="/posts/8681/new.jpg" alt="新建仓库"></p>
 </li>
-<li><p>然后在如下界面输入必要信息，注意看图中标注，尤其是仓库名字那个，<strong>必须是你自己github的用户名在加上.github.io后缀</strong>。例如我的，就是<strong>KenZP.github.io</strong>, 勾选创建readme，最后点Create就OK了。</p>
-<!-- ![填写仓库名](githubio.png) -->
-<p><img src="https://static01.imgkr.com/temp/c9a884286b7e4bc1a49c2f56dba7bcab.png" alt="填写仓库名"></p>
+<li><p>然后在如下界面输入必要信息，注意看图中标注，尤其是仓库名字那个，<strong>必须是你自己github的用户名在加上.github.io后缀</strong>。例如我的，就是<strong>KenZP.github.io</strong>, 勾选创建readme，最后点Create就OK了。<br><img src="/posts/8681/githubio.png" alt="填写仓库名"></p>
 </li>
 <li><p>仓库建好了，现在就需要把本地的博客部署到Github了，需要先做一些Github配置.<br>在git bash里面输入如下命令：</p>
 <pre class="line-numbers language-none"><code class="language-none">git config --global user.name &quot;你的github用户名&quot;
@@ -401,13 +397,7 @@ git config --global user.email &quot;你注册github的邮箱&quot;<span aria-hi
 <pre class="line-numbers language-none"><code class="language-none">ssh-keygen -t rsa -C &quot;你注册github的邮箱&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>在C盘用户名下有个.ssh文件夹，比如我的路径：<code>C:\Users\zhken\.ssh</code>,把里面的id_rsa.pub打开，复制里面的字串。</p>
-<p>在你github头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便起一个,然后把上一步复制的字串写到Key那个框中,然后点Add SSH Key。</p>
-<!-- ![设置](setting.png) -->
-<p><img src="https://static01.imgkr.com/temp/64121f8e0f024ac7aeee8b6657ce80d8.png" alt="设置"></p>
-<!-- ![ssh](ssh.png) -->
-<p><img src="https://static01.imgkr.com/temp/ba04b80fbc7d476fb82b4d2b223f3d6d.png" alt="ssh"></p>
-<!-- ![sshkey](sshkey.png) -->
-<p><img src="https://static01.imgkr.com/temp/b9811dfa15344fb9ad405a00c25a33fc.png" alt="sshkey"></p>
+<p>在你github头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便起一个,然后把上一步复制的字串写到Key那个框中,然后点Add SSH Key。<br><img src="/posts/8681/setting.png" alt="设置"><br><img src="/posts/8681/ssh.png" alt="ssh"><br><img src="/posts/8681/sshkey.png" alt="sshkey"></p>
 <p>此刻，你本地就可以和Github仓库做交流了，下面就是把本地的博客部署到github。</p>
 </li>
 </ol>
