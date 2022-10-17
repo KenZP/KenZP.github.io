@@ -7,10 +7,10 @@ https://www.0a0z.cn/tags/index.html
 https://www.0a0z.cn/friends/index.html
 https://www.0a0z.cn/categories/index.html
 https://www.0a0z.cn/
+https://www.0a0z.cn/tags/Python/
 https://www.0a0z.cn/tags/Hexo/
 https://www.0a0z.cn/tags/Github/
 https://www.0a0z.cn/tags/%E5%B0%8F%E8%AF%97/
-https://www.0a0z.cn/tags/Python/
+https://www.0a0z.cn/categories/Python%E5%BA%94%E7%94%A8/
 https://www.0a0z.cn/categories/Blog/
 https://www.0a0z.cn/categories/%E8%AF%97%E6%AD%8C/
-https://www.0a0z.cn/categories/Python%E5%BA%94%E7%94%A8/
